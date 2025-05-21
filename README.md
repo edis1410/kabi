@@ -40,13 +40,19 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 5. Zaženi razvojni strežnik:
+### 5. Poženi migracije
+
+```bash
+php artisan migrate
+```
+
+### 6. Zaženi razvojni strežnik:
 
 ```bash
 php artisan serve
 ```
 
-### 6. Prevedi Tailwind in JS datoteke:
+### 7. Prevedi Tailwind in JS datoteke:
 
 ```bash
 npm run dev
